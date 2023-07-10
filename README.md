@@ -1,7 +1,7 @@
 ## Outline
 Bug reproduction repo of Prisma, when `@db.timestampz` typed column being used.
 
-Prisma schema file is here: [src/schema.prisma](src/schema.prisma)
+Prisma schema file is here: [src/schema.prisma](https://github.com/samchon/prisma-bug-report-postgres-timestampz/blob/master/src/schema.prisma)
 
 You can reproduce the bug like below:
 
@@ -10,7 +10,7 @@ git clone https://github.com/samchon/prisma-bug-report-postgres-timestampz
 cd prisma-bug-report-postgres-timestampz
 
 npm install
-npm run build:prisma
+npm run build:schema
 ```
 
 

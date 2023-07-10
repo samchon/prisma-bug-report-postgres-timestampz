@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build:prisma": "prisma generate --schema=src/schema.prisma",
+    "build:schema": "prisma generate --schema=src/schema.prisma",
     "prepare": "ts-patch install"
   },
   "repository": {
