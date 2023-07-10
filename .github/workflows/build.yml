@@ -1,0 +1,15 @@
+name: build
+on: [push, pull_request]
+
+jobs:
+  Ubuntu:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+      
+      - name: Install Backend-Server
+        run: npm install
+      
+      - name: Create DB Schema
+        run: npm run build:schema
